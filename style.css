@@ -1,0 +1,69 @@
+.fiqh{
+    background: rgba(135, 196, 243, 0.625);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.523);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+    border: 1px solid rgba(135, 197, 243, 1);
+    color: rgb(189, 134, 31);
+    width: 50%;
+    margin: 10px;
+    }
+    .mustalah{
+        background: rgba(135, 196, 243, 0.625);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.523);
+        backdrop-filter: blur(8.1px);
+        -webkit-backdrop-filter: blur(8.1px);
+        border: 1px solid rgba(135, 197, 243, 1);
+        border: 1px solid rgba(135, 197, 243, 1);
+        width: 50%;
+        color: rgb(189, 134, 31);
+        margin: 10px;
+        
+        }
+        @media (max-width: 450px) {
+            .container {
+              flex-direction: column;
+            }
+            .fiqh{
+                width: 95%;
+            }
+            .mustalah{
+                width: 95%;
+            }
+          }
+    .container{
+    background: rgba(190, 190, 190, 0.32);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+    border: 1px solid rgba(190, 190, 190, 1);
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px ;
+    }
+    .vid{
+      height: 400px;
+      
+     
+    }
+    .dn{
+      display: none;
+    }
+    .db{
+      display: block;
+    }
+    
+    .buttonall{
+      margin-bottom: 20px;
+      color: rgb(33, 150, 130);
+      font-size: 30px;
+      border-radius: 25px;
+    }
+    a{
+      outline: none;
+      text-decoration: none;
+      color: rgb(189, 134, 31);
+    }
